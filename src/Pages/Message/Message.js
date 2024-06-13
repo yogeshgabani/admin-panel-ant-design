@@ -8,7 +8,6 @@ import { CiSearch } from 'react-icons/ci';
 import Dropdown from 'react-bootstrap/Dropdown';
 import TabPane from 'antd/es/tabs/TabPane';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import Chat from '../Chat/Chat';
 import chatone from '../../Assets/icon/c1.jpg';
 import chattwo from '../../Assets/icon/c2.jpg';
 import chatthree from '../../Assets/icon/c3.jpg';

@@ -14,7 +14,6 @@ import Header from "../../Component/Header/Header";
 import Footer from "../../Component/Footer/Footer";
 import Maincontant from "../../Component/Maincontant/Maincontant";
 import Pageerror from "../../Component/Pageerror";
-import Chat from "../Chat/Chat";
 import Taskboard from "../Taskboard/Taskboard";
 import Help from "../Help/Help";
 import Usersetting from "../Usersetting/Usersetting";
@@ -60,7 +59,7 @@ function Pagemain() {
                     <Route path="/taskboard" element={<Taskboard />} />
                     <Route path="/help" element={<Help />}/>
                     <Route path="/setting" element={<Usersetting />}/>
-                    <Route path="/chart" element={<Chat />}/>
+                    {/* <Route path="/chart" element={<Chat />}/> */}
                 </Routes>
             </div>
             <div>
