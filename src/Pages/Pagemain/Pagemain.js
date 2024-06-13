@@ -59,7 +59,7 @@ function Pagemain() {
                     <Route path="/taskboard" element={<Taskboard />} />
                     <Route path="/help" element={<Help />}/>
                     <Route path="/setting" element={<Usersetting />}/>
-                    {/* <Route path="/chart" element={<Chat />}/> */}
+                    <Route path="/chart" element={<Chat />}/>
                 </Routes>
             </div>
             <div>
