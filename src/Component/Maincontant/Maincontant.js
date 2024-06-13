@@ -10,7 +10,6 @@ import { IoArrowForward, IoArrowForwardOutline, IoHeart } from "react-icons/io5"
 import upgrade_img from "../../Assets/Images/upgrade.png";
 import { IoIosMore, IoMdArrowUp, IoMdMore } from "react-icons/io";
 import { CiCircleCheck, CiSearch } from "react-icons/ci";
-import { render } from "@testing-library/react";
 import { RiArrowLeftCircleLine, RiDeleteBin6Fill } from "react-icons/ri";
 import { RxCrossCircled } from "react-icons/rx";
 import image1 from "../../Assets/icon/t1.jpg";
