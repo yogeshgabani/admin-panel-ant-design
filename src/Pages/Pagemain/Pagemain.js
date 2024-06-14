@@ -2,7 +2,7 @@ import { IoMenuSharp } from "react-icons/io5";
 import '../../Pages/Pagemain/Pagemain.css';
 import { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link, Route, Routes, useLocation } from 'react-router-dom';
+import { Link, Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import Login from "../Login/Login";
 import Signup from "../Signup/Signup";
 import Forgot from "../Forgot/Forgot";
@@ -27,7 +27,7 @@ function Pagemain() {
     };
 
     const location = useLocation();
-    const showHeaderAndSidebar = !['/', '/signup', '/forgot', '/resetpassword', '/lockscreen'].includes(location.pathname);
+    const showHeaderAndSidebar = !['/', '/404' ,  '/signup', '/forgot', '/resetpassword', '/lockscreen'].includes(location.pathname);
 
     return (
         <div className={!showmenu ? "hide" : "show"}> 
@@ -52,7 +52,8 @@ function Pagemain() {
                     <Route path="/forgot" element={<Forgot />} />
                     <Route path="/resetpassword" element={<Resetpassword />} />
                     <Route path="lockscreen" element={<Lockscreen />} />
-                    <Route path="*" element={<Pageerror />} />
+                    <Route path="/404" element={<Pageerror />} />
+                    <Route path="*" element={ <Navigate to="/404" replace />} />
                     <Route path="/maincontant" element={<Maincontant />} />
                     <Route path="/profile" element={<Profile />} />
                     <Route path="/message" element={<Message />} />
