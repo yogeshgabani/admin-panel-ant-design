@@ -18,6 +18,7 @@ import Taskboard from "../Taskboard/Taskboard";
 import Help from "../Help/Help";
 import Usersetting from "../Usersetting/Usersetting";
 import Lockscreen from "../Lockscreen/Lockscreen";
+import Analytics from "../Analytics/Analytics";
 
 
 function Pagemain() {
@@ -60,6 +61,7 @@ function Pagemain() {
                     <Route path="/taskboard" element={<Taskboard />} />
                     <Route path="/help" element={<Help />}/>
                     <Route path="/setting" element={<Usersetting />}/>
+                    <Route path="/analytics" element={<Analytics />}/>
                     {/* <Route path="/chart" element={<Chat />}/> */}
                 </Routes>
             </div>

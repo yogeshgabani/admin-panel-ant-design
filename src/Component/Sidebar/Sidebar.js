@@ -19,6 +19,7 @@ import { GoTag } from "react-icons/go";
 import { FiAward, FiShare2 } from "react-icons/fi";
 import { BiCube, BiMap } from "react-icons/bi";
 import { SiMaterialdesignicons } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 
 
@@ -83,19 +84,21 @@ function Sidebar() {
       <div className={close ? "hidesmall sidebar-menu overflow-y-auto" : " sidebar-menu overflow-y-auto"} >
         <ul className="m-0 list-unstyled">
           <Text className="data-name text-uppercase" >dashboard</Text>
+          <Link to='/maincontant'>
           <li className={active === 0 ? "mmactive" : ""} onClick={() => activelink(0)}>
             <div className="mx-2 list-data d-flex align-items-center gap-2" onClick={hidemenu}>
               <CiMonitor className="icon-sidebar" />
               <span className="text-capitalize">Sales</span>
               <Text className="badge-icon fw-medium">5+</Text>
             </div>
-          </li>
+          </li></Link>
+          <Link to='/analytics'>
           <li className={active === 1 ? "mmactive" : ""} onClick={() => activelink(1)}>
             <div className="mx-2 list-data d-flex align-items-center gap-2" onClick={hidemenu}>
               <LuPieChart className="icon-sidebar" />
               <span className="text-capitalize">analytics</span>
             </div>
-          </li>
+          </li></Link>
           <Text className="data-name text-uppercase">applications</Text>
           <li className={active === 2 ? "mmactive" : ""} onClick={() => activelink(2)}>
             <div className="mx-2 list-data d-flex align-items-center gap-2" onClick={hidemenu}>
@@ -103,19 +106,21 @@ function Sidebar() {
               <span className="text-capitalize">calendar</span>
             </div>
           </li>
+          <Link to='/message'>
           <li className={active === 3 ? "mmactive" : ""} onClick={() => activelink(3)}>
             <div className="mx-2 list-data d-flex align-items-center gap-2" onClick={hidemenu}>
               <CiChat1 className="icon-sidebar" />
               <span className="text-capitalize">chat</span>
               <Text className="badge-icon-chat fw-medium">Hot</Text>
             </div>
-          </li>
+          </li></Link>
+          <Link to='/taskboard'>
           <li className={active === 4 ? "mmactive" : ""} onClick={() => activelink(4)}>
             <div className="mx-2 list-data d-flex align-items-center gap-2" onClick={hidemenu}>
               <MdOutlineViewKanban className="icon-sidebar" />
               <span className="text-capitalize">kanban board</span>
             </div>
-          </li>
+          </li></Link>
           <li className={active === 5 ? "mmactive" : ""} onClick={() => activelink(5)}>
             <div className="mx-2 list-data d-flex align-items-center gap-2" onClick={hidemenu}>
               <CiFileOn ieChart className="icon-sidebar" />

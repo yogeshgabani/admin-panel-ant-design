@@ -4,7 +4,7 @@ import { Breadcrumb } from 'antd';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { MdEdit, MdKeyboardArrowDown } from "react-icons/md";
 import React, { useState } from "react";
-import Chart from 'react-apexcharts'
+import Chart from 'react-apexcharts';
 import { LuAlertTriangle } from "react-icons/lu";
 import { IoArrowForward, IoArrowForwardOutline, IoHeart } from "react-icons/io5";
 import upgrade_img from "../../Assets/Images/upgrade.png";
@@ -415,7 +415,7 @@ export default function Maincontant() {
   const [selected, onSelect] = React.useState('na');
 
 
-  
+
   return (
     <>
 
