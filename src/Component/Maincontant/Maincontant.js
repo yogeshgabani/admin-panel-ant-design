@@ -1,14 +1,14 @@
 import "../Maincontant/Maincontant.css";
-import { Avatar, Button, Col, Input, Menu, Progress, Radio, Row, Table, Tag, Typography, } from 'antd';
+import { Avatar, Col, Input, Progress,  Row, Table, Tag, Typography, } from 'antd';
 import { Breadcrumb } from 'antd';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { MdEdit, MdKeyboardArrowDown } from "react-icons/md";
 import React, { useState } from "react";
 import Chart from 'react-apexcharts';
 import { LuAlertTriangle } from "react-icons/lu";
-import { IoArrowForward, IoArrowForwardOutline, IoHeart } from "react-icons/io5";
+import { IoArrowForward, IoArrowForwardOutline } from "react-icons/io5";
 import upgrade_img from "../../Assets/Images/upgrade.png";
-import { IoIosMore, IoMdArrowUp, IoMdMore } from "react-icons/io";
+import { IoIosMore, IoMdArrowUp} from "react-icons/io";
 import { CiCircleCheck, CiSearch } from "react-icons/ci";
 import { RiArrowLeftCircleLine, RiDeleteBin6Fill } from "react-icons/ri";
 import { RxCrossCircled } from "react-icons/rx";
@@ -20,9 +20,9 @@ import image5 from "../../Assets/icon/t5.jpg";
 import image6 from "../../Assets/icon/t6.jpg";
 import image7 from "../../Assets/icon/t7.jpg";
 import WorldMap from "https://cdn.skypack.dev/react-world-map@2.3.0";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
-const { Paragraph, Text } = Typography;
+const { Text } = Typography;
 
 
 

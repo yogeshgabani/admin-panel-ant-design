@@ -1,12 +1,10 @@
 import React from "react";
 import "../Sidebar/Sidebar.css"
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import logo_main from "../../Assets/icon/logo.png";
 import logo_main2 from "../../Assets/icon/logosmall.png";
 import { MenuOutlined } from "@ant-design/icons";
 import { Typography } from "antd";
-
-
 import { CiCalendar, CiChat1, CiFileOn, CiMonitor, CiViewTable } from "react-icons/ci";
 import { LuBarChart2, LuPieChart } from "react-icons/lu";
 import { CgExtensionAdd } from "react-icons/cg";
@@ -21,16 +19,7 @@ import { BiCube, BiMap } from "react-icons/bi";
 import { SiMaterialdesignicons } from "react-icons/si";
 import { Link } from "react-router-dom";
 
-
-
 const { Text } = Typography;
-
-
-
-
-
-
-
 
 function Sidebar() {
 
@@ -57,9 +46,6 @@ function Sidebar() {
     }
 
   }
-
-
-
 
   // showmore-less button
   const [showmore, setshowmore] = useState("false");

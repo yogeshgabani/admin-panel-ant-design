@@ -7,15 +7,8 @@ import accimg from '../../Assets/icon/acc.jpg';
 import imgavtar from '../../Assets/icon/c1.jpg';
 import { Dropdown } from 'react-bootstrap';
 import { BsThreeDots } from 'react-icons/bs';
-import Title from 'antd/es/skeleton/Title';
 
-const { Paragraph, Text } = Typography;
-
-
-
-
-
-
+const { Paragraph } = Typography;
 
 
 export default function Taskboard() {
@@ -24,9 +17,6 @@ export default function Taskboard() {
     const onChange = (e) => {
         console.log(`checked = ${e.target.checked}`);
     };
-
-
-
 
     return (
         <div className="main-homepage">

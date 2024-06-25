@@ -1,13 +1,11 @@
 
 
 import '../../Pages/Message/Message.css';
-import { Avatar, Breadcrumb, Button, Col, Divider, Input, Row, Tabs, Typography } from 'antd';
+import { Avatar, Breadcrumb, Button, Col, Divider, Input, Row, Typography } from 'antd';
 import logoimg from '../../Assets/icon/logosmall.png';
 import { BsThreeDots, BsThreeDotsVertical } from 'react-icons/bs';
 import { CiSearch } from 'react-icons/ci';
 import Dropdown from 'react-bootstrap/Dropdown';
-import TabPane from 'antd/es/tabs/TabPane';
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import chatone from '../../Assets/icon/c1.jpg';
 import chattwo from '../../Assets/icon/c2.jpg';
 import chatthree from '../../Assets/icon/c3.jpg';
@@ -15,7 +13,7 @@ import accimg from '../../Assets/icon/acc.jpg';
 import { useState } from 'react';
 import { GoDotFill } from 'react-icons/go';
 import { IoSend } from 'react-icons/io5';
-const { Paragraph, Text } = Typography;
+const { Text } = Typography;
 
 
 function Message() {
@@ -47,9 +45,6 @@ function Message() {
         toggleState2 === index ? className : "";
     const getActiveClass3 = (index, className) =>
         toggleState3 === index ? className : "";
-
-
-    
 
     return (
         <div className="main-homepage">

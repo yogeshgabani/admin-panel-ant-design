@@ -1,15 +1,11 @@
 
-
 import "../Signup/Signup.css";
-import Title from "antd/es/skeleton/Title";
 import logo_image from "../../Assets/icon/logo.png";
-import { Button, Form, Input, Space, Tag, Typography } from 'antd';
+import { Button, Form, Input, Typography } from 'antd';
 import { HeartFilled, LockOutlined, MailOutlined, UserOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 
 const { Text } = Typography;
-
-
 
 export default function Signup() {
     return (
@@ -61,7 +57,6 @@ export default function Signup() {
                                 <Text className="footer-copyright">© 2024 Dashonic. Crafted with by <HeartFilled className="text-danger" /> Pichforest</Text>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div >

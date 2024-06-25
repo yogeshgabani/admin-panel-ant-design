@@ -1,12 +1,11 @@
-import { Avatar, Breadcrumb, Button, Col, Form, Input, Row, Select, Space } from 'antd';
+import { Avatar, Breadcrumb, Button, Col, Form, Input, Row, Select} from 'antd';
 import '../../Pages/Usersetting/Usersetting.css';
 import { Typography } from 'antd';
-import settingimg from '../../Assets/Images/bg1.jpg';
 import accimg from '../../Assets/icon/acc.jpg';
 import { MdEdit, MdModeEdit } from 'react-icons/md';
 import TextArea from 'antd/es/input/TextArea';
 import { useState } from 'react';
-const { Paragraph, Text } = Typography;
+const { Paragraph } = Typography;
 
 export default function Usersetting() {
 

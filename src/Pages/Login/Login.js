@@ -1,13 +1,11 @@
 import React from 'react';
 import "../Login/Login.css";
-import { LockOutlined, MailOutlined, UserOutlined, UsergroupAddOutlined } from '@ant-design/icons';
-import { Button, Checkbox, ConfigProvider, Form, Input, Space } from 'antd';
+import { LockOutlined, UserOutlined } from '@ant-design/icons';
+import { Button, Checkbox, Form, Input } from 'antd';
 import { Typography } from 'antd';
 import logo_image from "../../Assets/icon/logo.png";
 import { Link } from 'react-router-dom';
 const { Title, Text } = Typography;
-
-
 
 
 export default function Login() {

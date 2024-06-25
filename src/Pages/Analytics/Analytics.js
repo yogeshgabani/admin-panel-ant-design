@@ -12,11 +12,8 @@ import f1img from "../../Assets/icon/f1.jpg";
 import f2img from "../../Assets/icon/f2.jpg";
 import f3img from "../../Assets/icon/f3.jpg";
 import f4img from "../../Assets/icon/f4.jpg";
-import f5img from "../../Assets/icon/f5.jpg";
 
 const { Paragraph, Text } = Typography;
-
-
 
 export default function Analytics() {
 
@@ -403,10 +400,6 @@ export default function Analytics() {
           },
         
       ];
-
-
-
-
 
 
     return (

@@ -1,10 +1,9 @@
 import { Avatar, Breadcrumb, Button, Form, Input } from "antd";
 import '../../Pages/Profile/Profile.css';
 import { Typography } from 'antd';
-import Title from "antd/es/typography/Title";
 import accimg from '../../Assets/icon/acc.jpg';
 import { useState } from "react";
-const { Paragraph, Text } = Typography;
+const { Text } = Typography;
 
 export default function Profile() {
 

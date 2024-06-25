@@ -1,11 +1,9 @@
-import Title from "antd/es/skeleton/Title";
+
 import { Avatar, Button, Form, Input, Typography } from 'antd';
 import logo_image from "../../Assets/icon/logo.png";
 import accimg from "../../Assets/icon/t7.jpg";
-import { LockOutlined, UserOutlined } from "@ant-design/icons";
+import { LockOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
-const { Text } = Typography;
-
 
 export default function Lockscreen() {
     return (

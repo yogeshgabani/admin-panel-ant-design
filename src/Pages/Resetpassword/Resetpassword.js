@@ -1,7 +1,7 @@
 import "../Resetpassword/Resetpassword.css";
 import logo_image from "../../Assets/icon/logo.png";
 import { Button, Form, Input, Typography } from "antd";
-import { CheckCircleFilled, LockFilled, MailOutlined } from "@ant-design/icons";
+import { CheckCircleFilled, LockFilled } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 
 
