@@ -101,7 +101,6 @@ export default function Login() {
                                         <Text className='create-link'>Don't have an account ?<a className='forgot-link fw-medium text-text-decoration-underline' href="#"> Signup</a></Text>
                                     </Link>
                                 </div>
-
                             </div>
                         </div>
 

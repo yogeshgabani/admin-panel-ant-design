@@ -3,10 +3,7 @@ import logo_image from "../../Assets/icon/logo.png";
 import { Button, Form, Input, Typography } from "antd";
 import { CheckCircleFilled, LockFilled } from "@ant-design/icons";
 import { Link } from "react-router-dom";
-
-
 const { Text } = Typography;
-
 
 export default function Resetpassword() {
     return (

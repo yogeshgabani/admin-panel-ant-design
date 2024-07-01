@@ -1,8 +1,8 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import "../Header/Header.css";
-import { IoIosSearch, IoMdLock } from "react-icons/io";
-import { DownOutlined, UserOutlined } from '@ant-design/icons';
-import { Input, Menu, message, Radio, Space, Tag, Typography } from 'antd';
+import {  IoMdLock } from "react-icons/io";
+import { DownOutlined } from '@ant-design/icons';
+import { Input, Radio, Tag, Typography } from 'antd';
 import menuimg from "../../Assets/Images/img1.png";
 import flageimg from "../../Assets/icon/f1.jpg";
 import f1img from "../../Assets/icon/f6.jpg";
@@ -20,18 +20,17 @@ import w6img from "../../Assets/icon/w6.png";
 import n1img from "../../Assets/icon/n1.jpg";
 import n2img from "../../Assets/icon/n2.jpg";
 import { CiSearch, CiSettings, CiWallet } from "react-icons/ci";
-import { Button, Drawer } from 'antd';
-import { HiOutlineSquares2X2, HiSquares2X2 } from "react-icons/hi2";
+import { Drawer } from 'antd';
+import { HiOutlineSquares2X2 } from "react-icons/hi2";
 import { Avatar, Badge } from 'antd';
 import { FaArrowAltCircleRight, FaRegBell, FaRegCalendarCheck, FaShoppingBasket, FaUserCircle } from "react-icons/fa";
-import Title from "antd/es/skeleton/Title";
 import Dropdown from 'react-bootstrap/Dropdown';
 import { IoHelpBuoySharp, IoLogOutOutline, IoTimeOutline } from "react-icons/io5";
 import { TfiTruck } from "react-icons/tfi";
 import { MdOutlineMessage } from "react-icons/md";
 import { Link } from "react-router-dom";
 
-const { Paragraph, Text } = Typography;
+const { Paragraph } = Typography;
 
 function Header() {
 

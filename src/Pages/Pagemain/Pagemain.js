@@ -2,7 +2,7 @@ import { IoMenuSharp } from "react-icons/io5";
 import '../../Pages/Pagemain/Pagemain.css';
 import { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link, Navigate, Route, Routes, useLocation } from 'react-router-dom';
+import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import Login from "../Login/Login";
 import Signup from "../Signup/Signup";
 import Forgot from "../Forgot/Forgot";

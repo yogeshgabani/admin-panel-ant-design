@@ -1,5 +1,3 @@
-
-
 import '../../Pages/Message/Message.css';
 import { Avatar, Breadcrumb, Button, Col, Divider, Input, Row, Typography } from 'antd';
 import logoimg from '../../Assets/icon/logosmall.png';

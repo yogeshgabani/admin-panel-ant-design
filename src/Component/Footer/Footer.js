@@ -1,12 +1,9 @@
 import { IoHeart } from "react-icons/io5";
 import { Typography } from 'antd';
 import '../Footer/Footer.css';
-const { Paragraph, Text } = Typography;
+const { Text } = Typography;
 
 export default function Footer() {
-
-
-
     return (
 
         <div className="main-footer">

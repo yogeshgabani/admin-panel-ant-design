@@ -21,10 +21,7 @@ import image6 from "../../Assets/icon/t6.jpg";
 import image7 from "../../Assets/icon/t7.jpg";
 import WorldMap from "https://cdn.skypack.dev/react-world-map@2.3.0";
 import { Outlet } from "react-router-dom";
-
 const { Text } = Typography;
-
-
 
 export default function Maincontant() {
 
@@ -203,8 +200,6 @@ export default function Maincontant() {
   })
 
   // table data
-
-
   const columns = [
     {
       title: 'ID',
@@ -366,7 +361,6 @@ export default function Maincontant() {
 
   ];
 
-
   const [selectedRowKeys, setSelectedRowKeys] = useState([]);
   const onSelectChange = (newSelectedRowKeys) => {
     console.log('selectedRowKeys changed: ', newSelectedRowKeys);
@@ -411,9 +405,7 @@ export default function Maincontant() {
   };
 
   // maps
-
   const [selected, onSelect] = React.useState('na');
-
 
 
   return (
