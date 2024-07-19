@@ -23,7 +23,7 @@ code {
 }
 
 .bg-image {
-  background: url("../../dashonic/src/Assets/Images/bg-image.jpg");
+  background: url("../src/Assets/Images/bg-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
